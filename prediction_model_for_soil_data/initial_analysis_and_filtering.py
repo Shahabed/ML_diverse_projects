@@ -3,7 +3,7 @@
 """
 
 @author: Shahabedin Chatraee Azizabadi
-Stenon, prediction model of the soil organic carbon(SOC) content
+prediction model of the soil organic carbon(SOC) content, initial analysis
 """
 import numpy as np
 import pandas as pd
@@ -70,7 +70,7 @@ plt.show()
 #For disnity function of SOC
 # a=df.soc_percent_labval.to_frame()
 # a.plot.density()
-# plt.shoow()
+# plt.show()
 # By looking at SOC distribution, we see an outlier biger than 9: remove the outlier
 # Also the distribution of SOC is close to a normal distribution
 df = df[df.soc_percent_labval < 9]
