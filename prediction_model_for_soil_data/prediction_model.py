@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: Shahabedin Chatraee Azizabadi
-Stenon, prediction model of soil organic carbon(SOC)
+prediction model of soil organic carbon(SOC)
 """
 
 import numpy as np
