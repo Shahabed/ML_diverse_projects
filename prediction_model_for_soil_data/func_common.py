@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: Shahabedin Chatraee Azizabadi
-Stenon, prediction model:common functions
+prediction model:common functions
 """
 import pandas as pd
 import numpy as np
