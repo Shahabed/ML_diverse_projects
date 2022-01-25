@@ -3,7 +3,7 @@
 """
 
 @author: Shahabedin Chatraee Azizabadi
-prediction model of the soil organic carbon(SOC) content, initial analysis
+prediction model of the soil organic carbon(SOC) content: initial analysis
 """
 import numpy as np
 import pandas as pd
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 #------------------Reading the dataframe-----------------------------
-df = pd.read_csv("stenon_challenge_seniorDS.csv", sep=";", index_col=False)
+df = pd.read_csv("Soil_data.csv", sep=";", index_col=False)
 # Original data: 1588 x 479
 df = df.drop(columns=['Unnamed: 0'])
 
